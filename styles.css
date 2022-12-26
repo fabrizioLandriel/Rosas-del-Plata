@@ -1,0 +1,142 @@
+/*reset*/
+*{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+
+}
+
+/*header*/
+header{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(250,65,168,215);
+    justify-content: space-between;
+}
+
+.logoHeader{
+    width: 5.8rem ;
+    margin: 1rem 1.5rem 1rem 3rem;
+}
+
+.logoHeader:hover{
+    width: 6.6rem;
+    transition-duration: .1s;
+}
+
+.divRedes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.redes {
+    height: 2.8rem;
+    width: 2.8rem;
+    
+}
+
+.redes:hover{
+    padding: 2px 2px 2px 2px;
+    transition-duration: .1s;
+}
+
+div a {
+    margin: 0rem 3rem 0rem 1.5rem;
+}
+
+/* main */
+main{
+    background-color: white
+}
+
+.uno {
+    display: flex;
+    justify-content: space-between;
+    margin-left: .8rem;
+    margin-right: .8rem;
+}
+
+.imagenUno{
+    width: 600px;
+    height: 450px;
+    margin: 2.3rem 9.5rem 2rem 12.5rem;
+    box-shadow: 1px 1px 12px black;
+}
+
+.pUno{
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin: 2.5rem 10rem 2rem 13rem;
+    align-self: center;
+    text-align: end;
+}
+
+.dos {
+    display: flex;
+    justify-content: space-between;
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+
+.imagenDos{
+    width: 600px;
+    height: 450px;
+    margin: 2.3rem 9.5rem 2rem 12.5rem;
+    box-shadow: 1px 1px 12px black;
+}
+
+.pDos{
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin: 2.5rem 10rem 2rem 13rem;
+    align-self: center;
+    text-align: start;
+}
+
+.tres{
+    display: flex;
+    justify-content: space-between;
+    margin-left: .8rem;
+    margin-right: .8rem;
+}
+
+.imagenTres{
+    width: 600px;
+    height: 450px;
+    margin: 2.3rem 12.5rem 2rem 12rem;
+    box-shadow: 1px 1px 12px black;
+}
+
+.pTres{
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin: 2.5rem 10rem 2rem 13rem;
+    align-self: center;
+    text-align: end;
+}
+
+.pHistoria {
+    margin-top: .6rem;
+    font-size: 2.6rem;
+    text-align: center;
+    text-decoration: underline;
+    color: rgba(250,65,168,215);
+}
+
+.pTextoHistoria{
+    margin: 0rem 10rem 2rem 10rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-align:center;
+}
+
+
+
+
+
+
+
+
+
